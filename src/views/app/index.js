@@ -7,7 +7,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
-// index sections
+// index sections prebuilt
 import SectionButtons from "views/index-sections/SectionButtons.js";
 import SectionNavbars from "views/index-sections/SectionNavbars.js";
 import SectionNavigation from "views/index-sections/SectionNavigation.js";
@@ -22,6 +22,12 @@ import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 
+
+//index sections Designed 
+
+import SectionIdea from "views/app/sections/idea";
+
+
 function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -35,12 +41,13 @@ function Index() {
       <IndexNavbar twitterLink="https://twitter.com/MakerSpaceTIET" facebookLink="https://facebook.com/MakerSpaceTIET" instaLink="https://instagram.com/MakerSpaceTIET" githubLink="https://github.com/makerspace-tiet"/>
       <IndexHeader />
       <div className="main">
+        <SectionIdea />
         {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
         <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
+        <SectionNotifications /> */}
+        {/* <SectionTypography />
         <SectionJavaScript />
         <SectionCarousel />
         <SectionNucleoIcons />
@@ -49,6 +56,8 @@ function Index() {
         <SectionExamples />
         <SectionDownload /> */}
         <DemoFooter />
+
+
       </div>
     </>
   );
