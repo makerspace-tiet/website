@@ -38,7 +38,7 @@ function RegisterPage() {
       <div
         className="page-header"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")"
+          backgroundImage: "url(" + require("assets/img/121407.jpg") + ")"
         }}
       >
         <div className="filter" />
@@ -47,7 +47,7 @@ function RegisterPage() {
             <Col className="ml-auto mr-auto" lg="4">
               <Card className="card-register ml-auto mr-auto">
                 <h3 className="title mx-auto">Welcome</h3>
-                <div className="social-line text-center">
+                {/* <div className="social-line text-center">
                   <Button
                     className="btn-neutral btn-just-icon mr-1"
                     color="facebook"
@@ -72,14 +72,14 @@ function RegisterPage() {
                   >
                     <i className="fa fa-twitter" />
                   </Button>
-                </div>
+                </div> */}
                 <Form className="register-form">
                   <label>Email</label>
                   <Input placeholder="Email" type="text" />
                   <label>Password</label>
                   <Input placeholder="Password" type="password" />
                   <Button block className="btn-round" color="danger">
-                    Register
+                    Login
                   </Button>
                 </Form>
                 <div className="forgot">
@@ -99,7 +99,7 @@ function RegisterPage() {
         <div className="footer register-footer text-center">
           <h6>
             © {new Date().getFullYear()}, made with{" "}
-            <i className="fa fa-heart heart" /> by Creative Tim
+            <i className="fa fa-heart heart" /> by Maker Space TIET
           </h6>
         </div>
       </div>

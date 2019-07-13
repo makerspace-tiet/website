@@ -68,7 +68,7 @@ function IndexNavbar(props) {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
+            
             title="MakerSpace TIET"
           >
             MakerSpace TIET
@@ -96,7 +96,7 @@ function IndexNavbar(props) {
               <Button
                 className="btn-round"
                 color="success"
-                href="#"
+                href="#idea"
               >
                 <i className="nc-icon nc-bulb-63" /> IDEA
               </Button>

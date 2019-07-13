@@ -26,16 +26,20 @@ import { Container, Row, Col } from "reactstrap";
 function SectionIdea() {
   return (
     <>
-      <Container className="tim-container" id="idea">
-        <div className="title" >
-          <h1>IDEA</h1>
+      <Container className="tim-container" >
+      
+      <br />
+
+        <div className="title" id="idea">
+
+          <h1><i className="nc-icon nc-bulb-63" />IDEA</h1>
         </div>
         <div id="typography">
           <Row>
             <div className="typography-line">
               <h3>
                 
-              The idea of makerspace is to provide an ​open culture at innovation, problem solving and design​. To solve problems with innovative ideas and create new solutions andwork on them in teams to bring them to life and action. A place where ideas arecelebrated.
+              The idea of makerspace is to provide an ​open culture at innovation, problem solving and design​. To solve problems with innovative ideas and create new solutions andwork on them in teams to bring them to life and action. A place where ideas are celebrated.
               </h3>
             </div>
           </Row>

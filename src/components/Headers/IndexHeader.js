@@ -202,7 +202,7 @@ function IndexHeader() {
               outline
               
             >
-              Lauch 5th August 2019
+              Launch Event Page
             </Button>
             </div>
           </Container>

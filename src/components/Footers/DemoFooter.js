@@ -31,7 +31,7 @@ function DemoFooter() {
             <ul>
               <li>
                 <a
-                  href="#"
+                  href="/login "
                 >
                   LOGIN
                 </a>
