@@ -2,7 +2,6 @@
   "name": "website",
   "version": "1.0.0",
   "private": true,
-  "homepage":"https://makerspace-tiet.github.io/website",
   "dependencies": {
     "classnames": "2.2.6",
     "gh-pages": "^2.0.1",
@@ -29,7 +28,7 @@
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true",
     
-    "deploy": "gh-pages -d build"
+    // "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
